@@ -102,7 +102,7 @@ jobs:
             - name: Generate HTML from Markdown in Docs/
               if: ${{ !cancelled() }}
               id: markdown-docs
-              uses: ldeluigi/markdown-docs@v2
+              uses: ldeluigi/markdown-docs@latest
               with:
                   src: docs
                   dst: dist/docs/
