@@ -11,14 +11,11 @@ function App(): React.JSX.Element {
             <header className="App-header">
                 UM COS420 with React Hooks and TypeScript
             </header>
-            <hr></hr>
-            <Counter></Counter>
-            <hr />
-            <RevealAnswer></RevealAnswer>
-            <hr />
-            <TwoDice></TwoDice>
-            <hr />
-            <ChangeType></ChangeType>
+            <p>
+                Edit <code>src/App.tsx</code> and save. This page will
+                automatically reload.
+                Kursten Massey
+            </p>
         </div>
     );
 }
